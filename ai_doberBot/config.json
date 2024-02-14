@@ -1,0 +1,14 @@
+{
+  "streaming":true,
+  "default_pipe_host": "192.168.93.60",
+  "default_pipe_port": "8554",
+  "width": 640,
+  "height": 480,
+  "cam_device":2,
+  "maxFacesPerVideo": 5,
+  "knownPersonThreshold":0.9,
+  "do_face_reco": true,
+  "detection_threshold": 0.15,
+  "do_human_detection":true
+
+}

@@ -1,0 +1,1 @@
+/usr/local/cuda/bin/nvcc    -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/ai_doberbot.dir/detector/doberBot.cpp.o -o CMakeFiles/ai_doberbot.dir/cmake_device_link.o  -L/usr/local/cuda/targets/aarch64-linux/lib/stubs  -L/usr/local/cuda/targets/aarch64-linux/lib trt_l2norm_helper_facenet/libtrt_l2norm_helper.a 
